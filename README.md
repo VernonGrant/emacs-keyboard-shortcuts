@@ -4,80 +4,88 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 
 ## General Shortcuts
 
-| Shortcut / Command | Description                                                     |
-|--------------------|-----------------------------------------------------------------|
-| `C-x Esc Esc`      | Edit and re-evaluate last complex command.                      |
-| `C-h m`            | Help information for the current buffers modes.                 |
-| `C-h f`            | Help information for a function.                                |
-| `C-h l`            | Show log for key presses and commands.                          |
-| `C-k`              | Kill rest of line, or line if empty.                            |
-| `C-/`              | Undo.                                                           |
-| `C-g C-/`          | Redo.                                                           |
-| `C-y`              | Yank from kill ring.                                            |
-| `M-y`              | Yank down the kill ring.                                        |
-| `C-y M-y`          | Cycle through kills after a yank.                               |
-| `M-%`              | Query replace.                                                  |
-| `M-/`              | Dabbrev (word) expand.                                          |
-| `M-C-/`            | Dabbrev (word) completion.                                      |
-| `C-x s`            | Save all buffers.                                               |
-| `C-x C-s`          | Save current buffer.                                            |
-| `C-x C-w`          | Write the current buffer, can provide new file name.            |
-| `C-o`              | Add blank line below.                                           |
-| `C-x C-o`          | Delete all blank lines below.                                   |
-| `C-x C-c`          | Quit Emacs.                                                     |
-| `M--`              | Prefix to perform negative meta commands.                       |
-| `C--`              | Prefix to perform negative commands.                            |
-| `M-m`              | Move cursor to the true beginning of the line.                  |
-| `C-x f`            | Set fill column number.                                         |
-| `M-q`              | Wrap/reformat to fill column.                                   |
-| `M-v`              | Page up.                                                        |
-| `C-v`              | Page down.                                                      |
-| `M-^`              | Join previous line.                                             |
-| `M-- M-^`          | Join following line.                                            |
-| `M-<`              | Go to start of file.                                            |
-| `M->`              | Go to end of file.                                              |
-| `M-{`              | Previous paragraph.                                             |
-| `M-}`              | Next paragraph.                                                 |
-| `C-x C-f`          | Find file.                                                      |
-| `C-x C-v`          | Find alternative file.                                          |
-| `C-x k`            | Kill current or named buffer.                                   |
-| `C-x o`            | Go to next window, split.                                       |
-| `C-x O`            | Go back to previous window, split.                              |
-| `C-x i`            | Insert a file into the current file.                            |
-| `C-x h`            | Highlight entire buffer.                                        |
-| `C-x h, C-M \`     | Re-indent entire buffer.                                        |
-| `C-x C-j`          | Open Dired jump.                                                |
-| `C-x SPC`          | Rectangle edit mode, can use string-insert-rectangle.           |
-| `C-x +`            | Resize all splits to equal sizes.                               |
-| `C-x 5 2`          | Open in new frame.                                              |
-| `C-x r SPC`        | Point-to-register.                                              |
-| `C-x r j`          | Jump-to-register.                                               |
-| `g`                | Refresh page, workes on many UI pages.                          |
-| `M-s o`            | List lines using regex.                                         |
-| `M-s h r`          | Highlights regex expression.                                    |
-| `M-r`              | Move cursor to top, middle and bottom.                          |
-| `C-l`              | Move text in relation to the cursor, to top, middle and bottom. |
-| `M-!`              | Run a shell command.                                            |
-| `M-&`              | Async shell command.                                            |
-| `C-u 0`            | Infinite count prefix.                                          |
-| `C-u {count}`      | Repeat operation x amount of times.                             |
-| `C-x z`            | Repeat command.                                                 |
-| `C-x backspace`    | Clear mini-buffer.                                              |
-| `C-k C-k C-y C-y`  | Duplicate line.  (Place cursor at start)                        |
-| `M-g M-g`          | Go to line.                                                     |
-| `C-x b`            | Quick switch buffer.                                            |
-| `C-v`              | Scroll to next page.                                            |
-| `M-v`              | Scroll to previous page.                                        |
-| `C-x 1`            | Kill other windows.                                             |
-| `C-x s`            | Save other buffers.                                             |
-| `C-x i`            | Insert a file into the current buffer.                          |
-| `M-z (char)`       | Zap up to char.                                                 |
-| `C-M-\`            | Re-indent region.                                               |
-| `C-x * g`          | Eval in new buffer.                                             |
-| `M-<space>`        | Removes extra whitespace between two words.                     |
-| `C-u M-x`          | Run command with additional options.                            |
-| `locate`           | Find a files matching a pattern across the entire system.       |
-| `recentf`          | Shows a list of recent files, if `recentf` mode is enabled.     |
+| Shortcut / Command    | Description                                                     |
+|-----------------------|-----------------------------------------------------------------|
+| `C-x Esc Esc`         | Edit and re-evaluate last complex command.                      |
+| `C-h m`               | Help information for the current buffers modes.                 |
+| `C-h f`               | Help information for a function.                                |
+| `C-h l`               | Show log for key presses and commands.                          |
+| `C-k`                 | Kill rest of line, or line if empty.                            |
+| `C-/`                 | Undo.                                                           |
+| `C-g C-/`             | Redo.                                                           |
+| `C-y`                 | Yank from kill ring.                                            |
+| `M-y`                 | Yank down the kill ring.                                        |
+| `C-y M-y`             | Cycle through kills after a yank.                               |
+| `M-%`                 | Query replace.                                                  |
+| `M-/`                 | Dabbrev (word) expand.                                          |
+| `M-C-/`               | Dabbrev (word) completion.                                      |
+| `C-x s`               | Save all buffers.                                               |
+| `C-x C-s`             | Save current buffer.                                            |
+| `C-x C-w`             | Write the current buffer, can provide new file name.            |
+| `C-o`                 | Add blank line below.                                           |
+| `C-x C-o`             | Delete all blank lines below.                                   |
+| `C-x C-c`             | Quit Emacs.                                                     |
+| `M--`                 | Prefix to perform negative meta commands.                       |
+| `C--`                 | Prefix to perform negative commands.                            |
+| `M-a`                 | Move cursor to the beginning of the line.                       |
+| `M-e`                 | Move cursor to end beginning of the line.                       |
+| `M-m`                 | Move cursor to the true beginning of the line.                  |
+| `M-k`                 | Kill rest the rest of the line.                                 |
+| `M-l`                 | Lowercase word forward.                                         |
+| `M-c`                 | Capitalize word forward.                                        |
+| `M-u`                 | Uppercase word forward.                                         |
+| `C-<space> C-<space>` | Add mark to mark ring.                                          |
+| `C-u C-<space>`       | Jump to previous mark.                                          |
+| `C-x f`               | Set fill column number.                                         |
+| `M-q`                 | Wrap/reformat to fill column.                                   |
+| `M-v`                 | Page up.                                                        |
+| `C-v`                 | Page down.                                                      |
+| `M-^`                 | Join previous line.                                             |
+| `M-- M-^`             | Join following line.                                            |
+| `M-<`                 | Go to start of file.                                            |
+| `M->`                 | Go to end of file.                                              |
+| `M-{`                 | Previous paragraph.                                             |
+| `M-}`                 | Next paragraph.                                                 |
+| `C-x C-f`             | Find file.                                                      |
+| `C-x C-v`             | Find alternative file.                                          |
+| `C-x k`               | Kill current or named buffer.                                   |
+| `C-x o`               | Go to next window, split.                                       |
+| `C-x O`               | Go back to previous window, split.                              |
+| `C-x i`               | Insert a file into the current file.                            |
+| `C-x h`               | Highlight entire buffer.                                        |
+| `C-x h, C-M \`        | Re-indent entire buffer.                                        |
+| `C-x C-j`             | Open Dired jump.                                                |
+| `C-x SPC`             | Rectangle edit mode, can use string-insert-rectangle.           |
+| `C-x +`               | Resize all splits to equal sizes.                               |
+| `C-x 5 2`             | Open in new frame.                                              |
+| `C-x r SPC`           | Point-to-register.                                              |
+| `C-x r j`             | Jump-to-register.                                               |
+| `g`                   | Refresh page, workes on many UI pages.                          |
+| `M-s o`               | List lines using regex.                                         |
+| `M-s h r`             | Highlights regex expression.                                    |
+| `M-r`                 | Move cursor to top, middle and bottom.                          |
+| `C-l`                 | Move text in relation to the cursor, to top, middle and bottom. |
+| `M-!`                 | Run a shell command.                                            |
+| `M-&`                 | Async shell command.                                            |
+| `C-u 0`               | Infinite count prefix.                                          |
+| `C-u {count}`         | Repeat operation x amount of times.                             |
+| `C-x z`               | Repeat command.                                                 |
+| `C-x backspace`       | Clear mini-buffer.                                              |
+| `C-k C-k C-y C-y`     | Duplicate line.  (Place cursor at start)                        |
+| `M-g M-g`             | Go to line.                                                     |
+| `C-x b`               | Quick switch buffer.                                            |
+| `C-v`                 | Scroll to next page.                                            |
+| `M-v`                 | Scroll to previous page.                                        |
+| `C-x 1`               | Kill other windows.                                             |
+| `C-x s`               | Save other buffers.                                             |
+| `C-x i`               | Insert a file into the current buffer.                          |
+| `M-z (char)`          | Zap up to char.                                                 |
+| `C-M-\`               | Re-indent region.                                               |
+| `C-x * g`             | Eval in new buffer.                                             |
+| `M-<space>`           | Removes extra whitespace between two words.                     |
+| `C-u M-x`             | Run command with additional options.                            |
+| `locate`              | Find a files matching a pattern across the entire system.       |
+| `recentf`             | Shows a list of recent files, if `recentf` mode is enabled.     |
 
 ## Macros
 
