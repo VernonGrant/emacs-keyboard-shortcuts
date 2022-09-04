@@ -28,9 +28,11 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `C-x C-c`             | `save-buffers-kill-terminal`     | Quit Emacs.                                                        |
 | `M--`                 | `negative-argument`              | Prefix to perform negative meta commands.                          |
 | `C--`                 | `negative-argument`              | Prefix to perform negative commands.                               |
-| `M-a`                 | `backward-sentence`              | Move cursor to the beginning of the line.                          |
-| `M-e`                 | `forward-sentence`               | Move cursor to end beginning of the line.                          |
-| `M-m`                 | `back-to-indentation`            | Move cursor to the true beginning of the line.                     |
+| `C-a`                 | `move-beginning-of-line`         | Move cursor to the beginning of the line.                          |
+| `C-e`                 | `move-end-of-line`               | Move cursor to the end of the line.                                |
+| `M-a`                 | `backward-sentence`              | Move cursor to the beginning of the sentence.                      |
+| `M-e`                 | `forward-sentence`               | Move cursor to the end of the sentence.                            |
+| `M-m`                 | `back-to-indentation`            | Move cursor to the first non-whitepsace character on the line.     |
 | `M-k`                 | `kill-sentence`                  | Kill rest the rest of theing of the line.                          |
 | `M-l`                 | `downcase-word`                  | Lowercase word forward.                                            |
 | `M-c`                 | `capitalize-word`                | Capitalize word forward.                                           |
@@ -54,7 +56,7 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `C-x O`               | `other-window`                   | Go back to previous window, split.                                 |
 | `C-x i`               | `insert-file`                    | Insert a file into the current file.                               |
 | `C-x h`               | `mark-whole-buffer`              | Highlight entire buffer.                                           |
-| `C-x h, C-M \`        | `indent-region`                  | Re-indent entire buffer.                                           |
+| `C-x h, C-M-\`        | `indent-region`                  | Re-indent entire buffer.                                           |
 | `C-x C-j`             | `dired-jump`                     | Open Dired jump.                                                   |
 | `C-x SPC`             | `rectangle-mark-mode`            | Rectangle edit mode, can use string-insert-rectangle.              |
 | `C-x +`               | `balance-windows`                | Resize all splits to equal sizes.                                  |
@@ -75,11 +77,8 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `C-k C-k C-y C-y`     |                                  | Duplicate line.  (Place cursor at start)                           |
 | `M-g M-g`             | `goto-line`                      | Go to line.                                                        |
 | `C-x b`               | `switch-to-buffer`               | Quick switch buffer.                                               |
-| `C-v`                 | `scroll-up-command`              | Scroll to next page.                                               |
-| `M-v`                 | `scroll-down-command`            | Scroll to previous page.                                           |
 | `C-x 1`               | `delete-other-windows`           | Kill other windows.                                                |
 | `C-x s`               | `save-some-buffers`              | Save other buffers.                                                |
-| `C-x i`               | `insert-file`                    | Insert a file into the current buffer.                             |
 | `M-z (char)`          | `zap-to-char`                    | Zap up to char.                                                    |
 | `C-M-\`               | `indent-region`                  | Re-indent region.                                                  |
 | `C-x * g`             | `calc-dispatch`                  | Eval in new buffer.                                                |
