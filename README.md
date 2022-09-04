@@ -229,16 +229,16 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 
 ## Org Buffer
 
-| Shortcut / Command | Description                                    |
-|--------------------|------------------------------------------------|
-| `S-M-RET`          | Insert a new TODO entry below the current one. |
-| `C-c / t`          | View todo items in a sparse tree.              |
-| `C-c C-t`          | Toggle todo item state.                        |
-| `C-c C-s`          | Schedule todo item.                            |
-| `C-c C-d`          | Add deadline to todo item.                     |
-| `C-c [`            | Add file to agenda.                            |
-| `C-c ]`            | Remove file to agenda.                         |
-| `C-c .`            | Insert current date.                           |
-| `C-c C-e`          | Open exporter.                                 |
-| `C-c C-e #`        | Insert template.                               |
-| `C-c C-e P x`      | Export specific project.                       |
+| Shortcut / Command | Command Invoked | Description                                    |
+|--------------------|---------|------------------------------------------------|
+| `S-M-RET`          | `org-insert-todo-heading` | Insert a new TODO entry below the current one. |
+| `C-c / t`          | `org-match-sparse-tree` | View todo items in a sparse tree.              |
+| `C-c C-t`          | `org-todo` | Toggle todo item state.                        |
+| `C-c C-s`          | `org-schedule` | Schedule todo item.                            |
+| `C-c C-d`          | `org-deadline` | Add deadline to todo item.                     |
+| `C-c [`            | `org-agenda-file-to-front` | Add file to agenda.                            |
+| `C-c ]`            | `org-remove-file` | Remove file to agenda.                         |
+| `C-c .`            | `org-timestamp` | Insert current date.                           |
+| `C-c C-e`          | `org-export-dispatch` | Open exporter.                                 |
+| `C-c C-e #`        | `org-export-dispatch`  | Insert template.                               |
+| `C-c C-e P x`      | `org-export-dispatch` | Export specific project.                       |
