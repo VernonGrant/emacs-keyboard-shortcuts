@@ -189,6 +189,7 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `X`                | Execute shell command on file.                                                     |
 | `Q`                | Query replace marked files, `<space>` accept, `n` decline and `C-x s` to save all. |
 | `+`                | Create directory.                                                                  |
+| `^`                | Go up one directory.                                                               |
 | `find-name-dired`  | Recursively find a file.                                                           |
 
 ## Grep Buffer
