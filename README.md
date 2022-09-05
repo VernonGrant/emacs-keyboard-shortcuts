@@ -4,7 +4,7 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 
 ## General Shortcuts
 
-| Shortcut / Command    | Command Invoked                  | Description                                                        |
+| Shortcut              | Command Invoked                  | Description                                                        |
 |-----------------------|----------------------------------|--------------------------------------------------------------------|
 | `C-x Esc Esc`         | `repeat-complex-command`         | Edit and re-evaluate last complex command.                         |
 | `C-h m`               | `describe-mode`                  | Help information for the current buffers modes.                    |
@@ -84,162 +84,162 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `C-x * g`             | `calc-dispatch`                  | Eval in new buffer.                                                |
 | `M-<space>`           | `just-one-space`                 | Removes extra whitespace between two words.                        |
 | `C-u M-x`             | `universal-argument`             | Run command with additional options.                               |
-| `locate`              | `locate`                         | Find a files matching a pattern across the entire system.          |
-| `recentf`             | `recentf`                        | Shows a list of recent files, if `recentf` mode is enabled.        |
+|                       | `locate`                         | Find a files matching a pattern across the entire system.          |
+|                       | `recentf`                        | Shows a list of recent files, if `recentf` mode is enabled.        |
 
 ## Macros
 
-| Shortcut / Command | Command Invoked                        | Description                                                            |
-|--------------------|----------------------------------------|------------------------------------------------------------------------|
-| `C-x (`            | `kmacro-start-macro`                   | Define keyboard macro.                                                 |
-| `C-x )`            | `kmacro-end-macro`                     | End keyboard macro definition.                                         |
-| `C-x e`            | `kmacro-end-and-call-macro`            | Playback keyboard macro, can just keep pressing `e` after first press. |
-| `C-x C-k <space>`  | `kmacro-step-edit-macro`               | Open keyboard macro debugger.                                          |
-| `C-x C-k e`        | `edit-kbd-macro`                       | Enter macro editor, (C-c C-c) to finish editing.                       |
-| `C-x C-k n`        | `kmacro-name-last-macro`               | Save the keyboard macro for later use.                                 |
-| `insert-kbd-macro` | `insert-kbd-macro`                     | Insert a saved macro into the file, in Emacs lisp.                     |
+| Shortcut          | Command Invoked             | Description                                                            |
+|-------------------|-----------------------------|------------------------------------------------------------------------|
+| `C-x (`           | `kmacro-start-macro`        | Define keyboard macro.                                                 |
+| `C-x )`           | `kmacro-end-macro`          | End keyboard macro definition.                                         |
+| `C-x e`           | `kmacro-end-and-call-macro` | Playback keyboard macro, can just keep pressing `e` after first press. |
+| `C-x C-k <space>` | `kmacro-step-edit-macro`    | Open keyboard macro debugger.                                          |
+| `C-x C-k e`       | `edit-kbd-macro`            | Enter macro editor, (C-c C-c) to finish editing.                       |
+| `C-x C-k n`       | `kmacro-name-last-macro`    | Save the keyboard macro for later use.                                 |
+|                   | `insert-kbd-macro`          | Insert a saved macro into the file, in Emacs lisp.                     |
 
 ## Balanced Expressions
 
-| Shortcut / Command | Command Invoked    | Description                          |
-|--------------------|--------------------|--------------------------------------|
-| `C-M-f`            | `forward-sexp`     | Forward over an sexps.               |
-| `C-M-b`            | `backward-sexp`    | Backward over a sexps.               |
-| `C-M-d`            | `down-list`        | Move down into a sexps.              |
-| `C-M-u`            | `backward-up-list` | Move up out of a sexps.              |
-| `C-M-n`            | `forward-list`     | Move forward to the sexps.           |
-| `C-M-p`            | `backward-list`    | Move backward to the previous sexps. |
-| `C-M-k`            | `kill-sexp`        | Kill down into sexps.                |
+| Shortcut | Command Invoked    | Description                          |
+|----------|--------------------|--------------------------------------|
+| `C-M-f`  | `forward-sexp`     | Forward over an sexps.               |
+| `C-M-b`  | `backward-sexp`    | Backward over a sexps.               |
+| `C-M-d`  | `down-list`        | Move down into a sexps.              |
+| `C-M-u`  | `backward-up-list` | Move up out of a sexps.              |
+| `C-M-n`  | `forward-list`     | Move forward to the sexps.           |
+| `C-M-p`  | `backward-list`    | Move backward to the previous sexps. |
+| `C-M-k`  | `kill-sexp`        | Kill down into sexps.                |
 
 ## Incremental Search
 
-| Shortcut / Command | Command Invoked             | Description                                                                    |
-|--------------------|-----------------------------|--------------------------------------------------------------------------------|
-| `C-M-s`            | `isearch-forward-regexp`    | Regex search.                                                                  |
-| `C-s`              | `isearch-forward`           | Incremental search.                                                            |
-| `C-s C-s`          | `isearch-repeat-forward`    | Repeat incremental search.                                                     |
-| `C-s C-w`          | `isearch-yank-word-or-char` | Enter incremental search and start expanding the selection.                    |
-| `C-r`              | `isearch-backward`          | Incremental search backward.                                                   |
-| `C-r C-r`          | `isearch-repeat-backward`   | Repeat incremental search backward.                                            |
-| `C-s C-y`          | `isearch-yank-kill`         | Start incremental search using yanked text.                                    |
-| `C-s M-y`          | `isearch-yank-pop-only`     | Start incremental search from kill ring string.                                |
-| `C-r`              | `recursive-edit`            | During query replace, enter recursive edit mode.                               |
-| `C-M-c`            | `exit-recursive-edit`       | During query replace, exit recursive edit mode and continue query replacement. |
-| `C-]`              | `abort-recursive-edit`      | During query replace, exit recursive edit mode and query replace modes.        |
-| `M-s o`            | `isearch-occur`             | Show all lines matching the search term in occur.                              |
-| `M-s e`            | `isearch-edit-string`       | To edit the search string in the minibuffer.                                   |
-| `M-s h r`          | `isearch-highlight-regexp`  | Highlights the last search string.                                             |
+| Shortcut  | Command Invoked             | Description                                                                    |
+|-----------|-----------------------------|--------------------------------------------------------------------------------|
+| `C-M-s`   | `isearch-forward-regexp`    | Regex search.                                                                  |
+| `C-s`     | `isearch-forward`           | Incremental search.                                                            |
+| `C-s C-s` | `isearch-repeat-forward`    | Repeat incremental search.                                                     |
+| `C-s C-w` | `isearch-yank-word-or-char` | Enter incremental search and start expanding the selection.                    |
+| `C-r`     | `isearch-backward`          | Incremental search backward.                                                   |
+| `C-r C-r` | `isearch-repeat-backward`   | Repeat incremental search backward.                                            |
+| `C-s C-y` | `isearch-yank-kill`         | Start incremental search using yanked text.                                    |
+| `C-s M-y` | `isearch-yank-pop-only`     | Start incremental search from kill ring string.                                |
+| `C-r`     | `recursive-edit`            | During query replace, enter recursive edit mode.                               |
+| `C-M-c`   | `exit-recursive-edit`       | During query replace, exit recursive edit mode and continue query replacement. |
+| `C-]`     | `abort-recursive-edit`      | During query replace, exit recursive edit mode and query replace modes.        |
+| `M-s o`   | `isearch-occur`             | Show all lines matching the search term in occur.                              |
+| `M-s e`   | `isearch-edit-string`       | To edit the search string in the minibuffer.                                   |
+| `M-s h r` | `isearch-highlight-regexp`  | Highlights the last search string.                                             |
 
 ## Tags
 
-| Shortcut / Command | Command Invoked                      | Description             |
-|--------------------|--------------------------------------|-------------------------|
-| `M-.`              | `xref-find-definitions`              | Jump to tag.            |
-| `M-,`              | `xref-go-back`                       | Jump back.              |
-| `C-x 4 .`          | `xref-find-definitions-other-window` | Visit tag in new split. |
-| `C-x 5 .`          | `xref-find-definitions-other-frame`  | Visit tag in new frame. |
+| Shortcut  | Command Invoked                      | Description             |
+|-----------|--------------------------------------|-------------------------|
+| `M-.`     | `xref-find-definitions`              | Jump to tag.            |
+| `M-,`     | `xref-go-back`                       | Jump back.              |
+| `C-x 4 .` | `xref-find-definitions-other-window` | Visit tag in new split. |
+| `C-x 5 .` | `xref-find-definitions-other-frame`  | Visit tag in new frame. |
 
 ## Xref
 
-| Shortcut / Command | Command Invoked         | Description                         |
-|--------------------|-------------------------|-------------------------------------|
-| `M-.`              | `xref-find-definitions` | Find definitions at point.          |
-| `M-,`              | `xref-go-back`          | Pop marker and return.              |
-| `M-?`              | `xref-find-references`  | Find references matching a pattern. |
-| `C-M-.`            | `xref-find-apropos`     | Find symbols matching a pattern.    |
+| Shortcut | Command Invoked         | Description                         |
+|------------|-------------------------|-------------------------------------|
+| `M-.`      | `xref-find-definitions` | Find definitions at point.          |
+| `M-,`      | `xref-go-back`          | Pop marker and return.              |
+| `M-?`      | `xref-find-references`  | Find references matching a pattern. |
+| `C-M-.`    | `xref-find-apropos`     | Find symbols matching a pattern.    |
 
 ## Bookmarks
 
-| Shortcut / Command | Command Invoked       | Description            |
-|--------------------|-----------------------|------------------------|
-| `C-x r m`          | `bookmark-set`        | Create / set bookmark. |
-| `C-x r b`          | `bookmark-jump`       | Open bookmark.         |
-| `C-x r l`          | `bookmark-bmenu-list` | List bookmarks.        |
+| Shortcut  | Command Invoked       | Description            |
+|-----------|-----------------------|------------------------|
+| `C-x r m` | `bookmark-set`        | Create / set bookmark. |
+| `C-x r b` | `bookmark-jump`       | Open bookmark.         |
+| `C-x r l` | `bookmark-bmenu-list` | List bookmarks.        |
 
 ## Abbrev
 
-| Shortcut / Command | Command Invoked     | Description        |
-|--------------------|---------------------|--------------------|
-| `C-x a g`          | `add-global-abbrev` | Add global abbrev. |
-| `C-x a l`          | `add-mode-abbrev`   | Add local abbrev.  |
-| `C-q`              |                     | Mute abbrev.       |
+| Shortcut  | Command Invoked     | Description        |
+|-----------|---------------------|--------------------|
+| `C-x a g` | `add-global-abbrev` | Add global abbrev. |
+| `C-x a l` | `add-mode-abbrev`   | Add local abbrev.  |
+| `C-q`     |                     | Mute abbrev.       |
 
 ## Ivy Buffer
 
-| Shortcut / Command | Command Invoked              | Description                    |
-|--------------------|------------------------------|--------------------------------|
-| `S-<space>`        | `ivy-restrict-to-matches`    | Narrow search to current term. |
-| `C-M-p`            | `ivy-previous-line-and-call` | Preview up.                    |
-| `C-M-n`            | `ivy-next-line-and-call`     | Preview down.                  |
-| `M-o`              | `ivy-dispatching-done`       | Open item options.             |
+| Shortcut    | Command Invoked              | Description                    |
+|-------------|------------------------------|--------------------------------|
+| `S-<space>` | `ivy-restrict-to-matches`    | Narrow search to current term. |
+| `C-M-p`     | `ivy-previous-line-and-call` | Preview up.                    |
+| `C-M-n`     | `ivy-next-line-and-call`     | Preview down.                  |
+| `M-o`       | `ivy-dispatching-done`       | Open item options.             |
 
 ## Occur Buffer
 
-| Shortcut / Command | Command Invoked              | Description                           |
-|--------------------|------------------------------|---------------------------------------|
-| `e`                | `occur-edit-mode`            | Directly edit the entry in place.     |
-| `C-c C-c`          | `occur-mode-goto-occurrence` | Return back to occur mode after edit. |
+| Shortcut  | Command Invoked              | Description                           |
+|-----------|------------------------------|---------------------------------------|
+| `e`       | `occur-edit-mode`            | Directly edit the entry in place.     |
+| `C-c C-c` | `occur-mode-goto-occurrence` | Return back to occur mode after edit. |
 
 ## Dired Buffer
 
-| Shortcut / Command | Command Invoked                    | Description                                                                        |
-|--------------------|------------------------------------|------------------------------------------------------------------------------------|
-| `C-o`              | `dired-display-file`               | Preview file but stay in Dired buffer.                                             |
-| `C-u k`            | `dired-do-kill-lines`              | Remove section.                                                                    |
-| `X`                | `dired-do-shell-command`           | Execute shell command on file.                                                     |
-| `Q`                | `dired-do-find-regexp-and-replace` | Query replace marked files, `<space>` accept, `n` decline and `C-x s` to save all. |
-| `+`                | `dired-create-directory`           | Create directory.                                                                  |
-| `^`                | `dired-up-directory`               | Go up one directory.                                                               |
-| `find-name-dired`  | `find-name-dired`                  | Recursively find a file.                                                           |
+| Shortcut | Command Invoked                    | Description                                                                        |
+|----------|------------------------------------|------------------------------------------------------------------------------------|
+| `C-o`    | `dired-display-file`               | Preview file but stay in Dired buffer.                                             |
+| `C-u k`  | `dired-do-kill-lines`              | Remove section.                                                                    |
+| `X`      | `dired-do-shell-command`           | Execute shell command on file.                                                     |
+| `Q`      | `dired-do-find-regexp-and-replace` | Query replace marked files, `<space>` accept, `n` decline and `C-x s` to save all. |
+| `+`      | `dired-create-directory`           | Create directory.                                                                  |
+| `^`      | `dired-up-directory`               | Go up one directory.                                                               |
+|          | `find-name-dired`                  | Recursively find a file.                                                           |
 
 ## Grep Buffer
 
-| Shortcut / Command | Command Invoked            | Description   |
-|--------------------|----------------------------|---------------|
-| `C-c C-K`          | `command kill-compilation` | Kill process. |
+| Shortcut  | Command Invoked            | Description   |
+|-----------|----------------------------|---------------|
+| `C-c C-K` | `command kill-compilation` | Kill process. |
 
 ## Compile Buffer
 
-| Shortcut / Command | Command Invoked | Description                               |
-|--------------------|-----------------|-------------------------------------------|
-| `?`                | `describe-mode` | Describe-mode.                            |
-| `g`                | `recompile`     | Recompile.                                |
-| `h`                | `describe-mode` | Describe-mode.                            |
-| `q`                | `quit-window`   | Quit-window.                              |
-| `compile`          | `compile`       | Run one of the targets in your make file. |
+| Shortcut | Command Invoked | Description                               |
+|----------|-----------------|-------------------------------------------|
+| `?`      | `describe-mode` | Describe-mode.                            |
+| `g`      | `recompile`     | Recompile.                                |
+| `h`      | `describe-mode` | Describe-mode.                            |
+| `q`      | `quit-window`   | Quit-window.                              |
+|          | `compile`       | Run one of the targets in your make file. |
 
 ## Interactively Do Things (Ido) Buffer
 
-| Shortcut / Command | Command Invoked                 | Description                                                                   |
-|--------------------|---------------------------------|-------------------------------------------------------------------------------|
-| `M-f`              | `ido-wide-find-file-or-pop-dir` | Find file recursively. Search into sub directory.                             |
-| `?`                | `ido-completion-help`           | See a full list of all matching buffers.                                      |
-| `C-j`              | `ido-select-text`               | Choose selected file/folder/text from minibuffer. e,g. Open folder in Dired . |
+| Shortcut | Command Invoked                 | Description                                                                   |
+|----------|---------------------------------|-------------------------------------------------------------------------------|
+| `M-f`    | `ido-wide-find-file-or-pop-dir` | Find file recursively. Search into sub directory.                             |
+| `?`      | `ido-completion-help`           | See a full list of all matching buffers.                                      |
+| `C-j`    | `ido-select-text`               | Choose selected file/folder/text from minibuffer. e,g. Open folder in Dired . |
 
 ## Interface To Spell (Ispell) and On The Fly Spell (Flyspell)
 
-| Shortcut / Command   | Command Invoked                      | Description                                                      |
-|----------------------|--------------------------------------|------------------------------------------------------------------|
-| `M $`                | `ispell-word`                        | Check and correct spelling of the word at point.                 |
-| `C-M i`              | `completion-at-point`                | Complete the word before point based on the spelling dictionary. |
-| `C-c $`              | `flyspell-correct-word-before-point` | Correct word before point.                                       |
-| `flyspell-mode`      | `flyspell-mode`                      | Enable Fly-spell mode, which highlights all misspelled words.    |
-| `flyspell-prog-mode` | `flyspell-prog-mode`                 | Enable Fly-spell mode for comments and strings only.             |
-| `flyspell-buffer`    | `flyspell-buffer`                    | Check and correct spelling in the buffer.                        |
-|                      |                                      |                                                                  |
+| Shortcut | Command Invoked                      | Description                                                      |
+|----------|--------------------------------------|------------------------------------------------------------------|
+| `M $`    | `ispell-word`                        | Check and correct spelling of the word at point.                 |
+| `C-M i`  | `completion-at-point`                | Complete the word before point based on the spelling dictionary. |
+| `C-c $`  | `flyspell-correct-word-before-point` | Correct word before point.                                       |
+|          | `flyspell-mode`                      | Enable Fly-spell mode, which highlights all misspelled words.    |
+|          | `flyspell-prog-mode`                 | Enable Fly-spell mode for comments and strings only.             |
+|          | `flyspell-buffer`                    | Check and correct spelling in the buffer.                        |
+
 
 ## Org Buffer
 
-| Shortcut / Command | Command Invoked            | Description                                    |
-|--------------------|----------------------------|------------------------------------------------|
-| `S-M-RET`          | `org-insert-todo-heading`  | Insert a new TODO entry below the current one. |
-| `C-c / t`          | `org-match-sparse-tree`    | View todo items in a sparse tree.              |
-| `C-c C-t`          | `org-todo`                 | Toggle todo item state.                        |
-| `C-c C-s`          | `org-schedule`             | Schedule todo item.                            |
-| `C-c C-d`          | `org-deadline`             | Add deadline to todo item.                     |
-| `C-c [`            | `org-agenda-file-to-front` | Add file to agenda.                            |
-| `C-c ]`            | `org-remove-file`          | Remove file to agenda.                         |
-| `C-c .`            | `org-timestamp`            | Insert current date.                           |
-| `C-c C-e`          | `org-export-dispatch`      | Open exporter.                                 |
-| `C-c C-e #`        | `org-export-dispatch`      | Insert template.                               |
-| `C-c C-e P x`      | `org-export-dispatch`      | Export specific project.                       |
+| Shortcut      | Command Invoked            | Description                                    |
+|---------------|----------------------------|------------------------------------------------|
+| `S-M-RET`     | `org-insert-todo-heading`  | Insert a new TODO entry below the current one. |
+| `C-c / t`     | `org-match-sparse-tree`    | View todo items in a sparse tree.              |
+| `C-c C-t`     | `org-todo`                 | Toggle todo item state.                        |
+| `C-c C-s`     | `org-schedule`             | Schedule todo item.                            |
+| `C-c C-d`     | `org-deadline`             | Add deadline to todo item.                     |
+| `C-c [`       | `org-agenda-file-to-front` | Add file to agenda.                            |
+| `C-c ]`       | `org-remove-file`          | Remove file to agenda.                         |
+| `C-c .`       | `org-timestamp`            | Insert current date.                           |
+| `C-c C-e`     | `org-export-dispatch`      | Open exporter.                                 |
+| `C-c C-e #`   | `org-export-dispatch`      | Insert template.                               |
+| `C-c C-e P x` | `org-export-dispatch`      | Export specific project.                       |
