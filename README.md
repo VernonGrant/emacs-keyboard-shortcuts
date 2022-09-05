@@ -17,7 +17,6 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `C-y`                 | `yank`                           | Yank from kill ring.                                               |
 | `M-y`                 | `yank-pop`                       | Yank down the kill ring.                                           |
 | `C-y M-y`             | `yank-pop`                       | Cycle through kills after a yank.                                  |
-| `M-%`                 | `query-replace`                  | Query replace.                                                     |
 | `M-/`                 | `dabbrev-expand`                 | Dabbrev (word) expand.                                             |
 | `M-C-/`               | `dabbrev-completion`             | Dabbrev (word) completion.                                         |
 | `C-x s`               | `save-some-buffers`              | Save all buffers.                                                  |
@@ -54,9 +53,9 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `C-x k`               | `kill-buffer`                    | Kill current or named buffer.                                      |
 | `C-x o`               | `other-window`                   | Go to next window, split.                                          |
 | `C-x O`               | `other-window`                   | Go back to previous window, split.                                 |
-| `C-x i`               | `insert-file`                    | Insert a file into the current file.                               |
+| `C-x i`               | `insert-file`                    | Insert file contents into the current file.                        |
 | `C-x h`               | `mark-whole-buffer`              | Highlight entire buffer.                                           |
-| `C-x h, C-M-\`        | `indent-region`                  | Re-indent entire buffer.                                           |
+| `C-x h, C-M-\`        | `indent-region`                  | Re-indent code region in region or from previous mark point.       |
 | `C-x C-j`             | `dired-jump`                     | Open Dired jump.                                                   |
 | `C-x SPC`             | `rectangle-mark-mode`            | Rectangle edit mode, can use string-insert-rectangle.              |
 | `C-x +`               | `balance-windows`                | Resize all splits to equal sizes.                                  |
