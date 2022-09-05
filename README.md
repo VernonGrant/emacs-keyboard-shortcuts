@@ -129,6 +129,17 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `M-s e`   | `isearch-edit-string`       | To edit the search string in the minibuffer.                                   |
 | `M-s h r` | `isearch-highlight-regexp`  | Highlights the last search string.                                             |
 
+## Query Replace
+
+| Shortcut | Command Invoked | Description                                                          |
+|----------|-----------------|----------------------------------------------------------------------|
+| `M-%`    | `query-replace` | Start a query replace operation.                                     |
+| `!`      |                 | Replace all remaining matches in this buffer with no more questions. |
+| `^`      |                 | Move point back to previous match.                                   |
+| `u`      |                 | Undo previous replacement.                                           |
+| `U`      |                 | undo all replacements.                                               |
+| `E`      |                 | Edit the replacement string.                                         |
+
 ## Tags
 
 | Shortcut  | Command Invoked                      | Description             |
