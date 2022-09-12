@@ -25,6 +25,8 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `C-o`                 | `open-line`                      | Add blank line below.                                              |
 | `C-x C-o`             | `delete-blank-lines`             | Delete all blank lines below.                                      |
 | `C-x C-c`             | `save-buffers-kill-terminal`     | Quit Emacs.                                                        |
+| `C-x <left>`          | `previous-buffer`                | Switch to the previous buffer.                                     |
+| `C-x <right>`         | `next-buffer`                    | Switch to the next buffer.                                         |
 | `M--`                 | `negative-argument`              | Prefix to perform negative meta commands.                          |
 | `C--`                 | `negative-argument`              | Prefix to perform negative commands.                               |
 | `C-a`                 | `move-beginning-of-line`         | Move cursor to the beginning of the line.                          |
