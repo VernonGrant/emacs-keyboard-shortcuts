@@ -56,6 +56,7 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `C-x i`               | `insert-file`                    | Insert file contents into the current file.                        |
 | `C-x h`               | `mark-whole-buffer`              | Highlight entire buffer.                                           |
 | `C-x h, C-M-\`        | `indent-region`                  | Re-indent code region in region or from previous mark point.       |
+| `C-x C-x`             | `exchange-point-and-mark`        | Put the mark where point is now, and point where the mark is now.  |
 | `C-x C-j`             | `dired-jump`                     | Open Dired jump.                                                   |
 | `C-x SPC`             | `rectangle-mark-mode`            | Rectangle edit mode, can use string-insert-rectangle.              |
 | `C-x +`               | `balance-windows`                | Resize all splits to equal sizes.                                  |
