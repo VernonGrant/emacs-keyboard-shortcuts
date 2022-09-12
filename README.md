@@ -78,7 +78,6 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `M-g M-g`             | `goto-line`                      | Go to line.                                                        |
 | `C-x b`               | `switch-to-buffer`               | Quick switch buffer.                                               |
 | `C-x 1`               | `delete-other-windows`           | Kill other windows.                                                |
-| `C-x s`               | `save-some-buffers`              | Save other buffers.                                                |
 | `M-z (char)`          | `zap-to-char`                    | Zap up to char.                                                    |
 | `C-M-\`               | `indent-region`                  | Re-indent region.                                                  |
 | `C-x * g`             | `calc-dispatch`                  | Eval in new buffer.                                                |
