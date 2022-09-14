@@ -255,3 +255,12 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `C-c C-e`     | `org-export-dispatch`      | Open exporter.                                 |
 | `C-c C-e #`   | `org-export-dispatch`      | Insert template.                               |
 | `C-c C-e P x` | `org-export-dispatch`      | Export specific project.                       |
+
+## Useful Commands
+
+| Command                  | Description                                                   |
+|--------------------------|---------------------------------------------------------------|
+| `keep-lines`             | Delete all lines not matching the provided regex.             |
+| `flush-lines`            | Delete all lines matching the provided regex.                 |
+| `sort-lines`             | Sort lines in region alphabetically.                          |
+| `delete-duplicate-lines` | Delete all but one copy of any identical lines in the region. |
