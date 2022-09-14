@@ -264,3 +264,4 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `flush-lines`            | Delete all lines matching the provided regex.                 |
 | `sort-lines`             | Sort lines in region alphabetically.                          |
 | `delete-duplicate-lines` | Delete all but one copy of any identical lines in the region. |
+| `ff-find-other-file`     | Find the header or source file corresponding to this file.    |
