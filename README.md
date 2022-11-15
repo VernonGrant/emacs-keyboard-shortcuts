@@ -204,7 +204,7 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `^`      | `dired-up-directory`               | Go up one directory.                                                               |
 |          | `find-name-dired`                  | Recursively find a file.                                                           |
 
-## I Buffer
+## IBuffer
 
 | Shortcut | Command Invoked               | Description                                  |
 |----------|-------------------------------|----------------------------------------------|
