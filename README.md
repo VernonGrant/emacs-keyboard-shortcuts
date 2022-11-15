@@ -204,6 +204,16 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `^`      | `dired-up-directory`               | Go up one directory.                                                               |
 |          | `find-name-dired`                  | Recursively find a file.                                                           |
 
+## I Buffer
+
+| Shortcut | Command Invoked               | Description                                  |
+|----------|-------------------------------|----------------------------------------------|
+| `/ /`    | `ibuffer-filter-disable`      | Remove all filtering currently in effect.    |
+| `/ m`    | `ibuffer-filter-by-used-mode` | Add a filter by a major mode now in use.     |
+| `/ n`    | `ibuffer-filter-by-name`      | Add a filter by buffer name.                 |
+| `/ f`    | `ibuffer-filter-by-filename`  | Add a filter by filename.                    |
+| `Q`      | `ibuffer-do-query-replace`    | Query replace in each of the marked buffers. |
+
 ## Grep Buffer
 
 | Shortcut  | Command Invoked            | Description   |
