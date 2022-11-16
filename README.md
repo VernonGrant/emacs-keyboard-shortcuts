@@ -232,11 +232,14 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 
 ## Interactively Do Things (Ido) Buffer
 
-| Shortcut | Command Invoked                 | Description                                                                   |
-|----------|---------------------------------|-------------------------------------------------------------------------------|
-| `M-f`    | `ido-wide-find-file-or-pop-dir` | Find file recursively. Search into sub directory.                             |
-| `?`      | `ido-completion-help`           | See a full list of all matching buffers.                                      |
-| `C-j`    | `ido-select-text`               | Choose selected file/folder/text from minibuffer. e,g. Open folder in Dired . |
+| Shortcut          | Command Invoked                 | Description                                                                   |
+|-------------------|---------------------------------|-------------------------------------------------------------------------------|
+| `M-f`             | `ido-wide-find-file-or-pop-dir` | Find file recursively. Search into sub directory.                             |
+| `?`               | `ido-completion-help`           | See a full list of all matching buffers.                                      |
+| `C-j`             | `ido-select-text`               | Choose selected file/folder/text from minibuffer. e,g. Open folder in Dired . |
+| `C-x C-f ... C-d` | `dired`                         | Enter `dired` on the current directory.                                       |
+| `C-x C-f ... C-f` | `find-file`                     | Fallback to non-Ido, while finding a files.                                   |
+| `C-x C-b ... C-b` | `ido-switch-buffer`             | Fallback to non-Ido, while finding a buffer.                                  |
 
 ## Interface To Spell (Ispell) and On The Fly Spell (Flyspell)
 
