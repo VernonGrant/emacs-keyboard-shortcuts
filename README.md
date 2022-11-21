@@ -252,7 +252,6 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 |          | `flyspell-prog-mode`                 | Enable Fly-spell mode for comments and strings only.             |
 |          | `flyspell-buffer`                    | Check and correct spelling in the buffer.                        |
 
-
 ## Org Buffer
 
 | Shortcut      | Command Invoked            | Description                                    |
@@ -268,6 +267,19 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `C-c C-e`     | `org-export-dispatch`      | Open exporter.                                 |
 | `C-c C-e #`   | `org-export-dispatch`      | Insert template.                               |
 | `C-c C-e P x` | `org-export-dispatch`      | Export specific project.                       |
+
+## EWW
+
+| Shortcut | Command Invoked      | Description                          |
+|----------|----------------------|--------------------------------------|
+| `B`      | `eww-list-bookmarks` | Display your bookmarks.              |
+| `b`      | `eww-add-bookmark`   | Add the current page as a bookmark.  |
+| `l`      | `eww-back-url`       | Go to the previously displayed page. |
+| `r`      | `eww-forward-url`    | Go to the next displayed page.       |
+| `g`      | `eww-reload`         | Reload the current page.             |
+| `G`      | `eww`                | Go to a new address.                 |
+| `H`      | `eww-list-histories` | Shows a list of your histories.      |
+| `TAB`    | `shr-next-link`      | Skip to the next link.               |
 
 ## Useful Commands
 
