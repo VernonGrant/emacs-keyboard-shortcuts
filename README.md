@@ -102,25 +102,25 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 
 ## Project
 
-| Shortcut  | Command Invoked                    | Description                                                                          |
-|-----------|------------------------------------|--------------------------------------------------------------------------------------|
-| `C-x p !` | `project-shell-command`            | Run `shell-command` in the current project's root directory.                         |
-| `C-x p &` | `project-async-shell-command`      | Run `async-shell-command` in the current project's root directory.                   |
-| `C-x p f` | `project-find-file`                | Visit a file (with completion) in the current project.                               |
-| `C-x p F` | `project-or-external-find-file`    | Visit a file (with completion) in the current project or external roots.             |
-| `C-x p b` | `project-switch-to-buffer`         | Display buffer in the selected window, for a buffer belonging to the current project |
-| `C-x p s` | `project-shell`                    | Start an inferior shell in the current project's root directory.Example              |
-| `C-x p d` | `project-find-dir`                 | Start Dired in a directory inside the current project.                               |
-| `C-x p D` | `project-dired`                    | Start Dired in the current project's root.                                           |
-| `C-x p v` | `project-vc-dir`                   | Run VC-Dir in the current project's root.                                            |
-| `C-x p c` | `project-compile`                  | Run `compile` in the project root.                                                   |
-| `C-x p e` | `project-eshell`                   | Start Eshell in the current project's root directory.                                |
-| `C-x p k` | `project-kill-buffers`             | Kill the buffers belonging to the current project.                                   |
-| `C-x p p` | `project-switch-project`           | Switch to another project by running an Emacs command.                               |
-| `C-x p g` | `project-find-regexp`              | Find all matches for REGEXP in the current project's roots.                          |
-| `C-x p G` | `project-or-external-find-regexp`  | Find all matches for REGEXP in the project roots or external roots.                  |
-| `C-x p r` | `project-query-replace-regexp`     | Query-replace REGEXP in all the files of the project.                                |
-| `C-x p x` | `project-execute-extended-command` | Execute an extended command in project root.                                         |
+| Shortcut  | Command Invoked                    | Description                                                                           |
+|-----------|------------------------------------|---------------------------------------------------------------------------------------|
+| `C-x p !` | `project-shell-command`            | Run `shell-command` in the current project's root directory.                          |
+| `C-x p &` | `project-async-shell-command`      | Run `async-shell-command` in the current project's root directory.                    |
+| `C-x p f` | `project-find-file`                | Visit a file (with completion) in the current project.                                |
+| `C-x p F` | `project-or-external-find-file`    | Visit a file (with completion) in the current project or external roots.              |
+| `C-x p b` | `project-switch-to-buffer`         | Display buffer in the selected window, for a buffer belonging to the current project. |
+| `C-x p s` | `project-shell`                    | Start an inferior shell in the current project's root directory.                      |
+| `C-x p d` | `project-find-dir`                 | Start Dired in a directory inside the current project.                                |
+| `C-x p D` | `project-dired`                    | Start Dired in the current project's root.                                            |
+| `C-x p v` | `project-vc-dir`                   | Run VC-Dir in the current project's root.                                             |
+| `C-x p c` | `project-compile`                  | Run `compile` in the project root.                                                    |
+| `C-x p e` | `project-eshell`                   | Start Eshell in the current project's root directory.                                 |
+| `C-x p k` | `project-kill-buffers`             | Kill the buffers belonging to the current project.                                    |
+| `C-x p p` | `project-switch-project`           | Switch to another project by running an Emacs command.                                |
+| `C-x p g` | `project-find-regexp`              | Find all matches for REGEXP in the current project's roots.                           |
+| `C-x p G` | `project-or-external-find-regexp`  | Find all matches for REGEXP in the project roots or external roots.                   |
+| `C-x p r` | `project-query-replace-regexp`     | Query-replace REGEXP in all the files of the project.                                 |
+| `C-x p x` | `project-execute-extended-command` | Execute an extended command in project root.                                          |
 
 ## Balanced Expressions
 
