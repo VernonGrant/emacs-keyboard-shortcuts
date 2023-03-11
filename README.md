@@ -57,7 +57,7 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `C-x O`               | `other-window`                   | Go back to previous window, split.                                 |
 | `C-x i`               | `insert-file`                    | Insert file contents into the current file.                        |
 | `C-x h`               | `mark-whole-buffer`              | Highlight entire buffer.                                           |
-| `C-x h, C-M-\`        | `indent-region`                  | Re-indent code region in region or from previous mark point.       |
+| `C-M-\`               | `indent-region`                  | Re-indent code region in region or from previous mark point.       |
 | `C-x C-x`             | `exchange-point-and-mark`        | Put the mark where point is now, and point where the mark is now.  |
 | `C-x C-j`             | `dired-jump`                     | Open Dired jump.                                                   |
 | `C-x SPC`             | `rectangle-mark-mode`            | Rectangle edit mode, can use string-insert-rectangle.              |
@@ -99,6 +99,28 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `C-x C-k e`       | `edit-kbd-macro`            | Enter macro editor, (C-c C-c) to finish editing.                       |
 | `C-x C-k n`       | `kmacro-name-last-macro`    | Save the keyboard macro for later use.                                 |
 |                   | `insert-kbd-macro`          | Insert a saved macro into the file, in Emacs lisp.                     |
+
+## Project
+
+| Shortcut  | Command Invoked                    | Description                                                                          |
+|-----------|------------------------------------|--------------------------------------------------------------------------------------|
+| `C-x p !` | `project-shell-command`            | Run `shell-command` in the current project's root directory.                         |
+| `C-x p &` | `project-async-shell-command`      | Run `async-shell-command` in the current project's root directory.                   |
+| `C-x p f` | `project-find-file`                | Visit a file (with completion) in the current project.                               |
+| `C-x p F` | `project-or-external-find-file`    | Visit a file (with completion) in the current project or external roots.             |
+| `C-x p b` | `project-switch-to-buffer`         | Display buffer in the selected window, for a buffer belonging to the current project |
+| `C-x p s` | `project-shell`                    | Start an inferior shell in the current project's root directory.Example              |
+| `C-x p d` | `project-find-dir`                 | Start Dired in a directory inside the current project.                               |
+| `C-x p D` | `project-dired`                    | Start Dired in the current project's root.                                           |
+| `C-x p v` | `project-vc-dir`                   | Run VC-Dir in the current project's root.                                            |
+| `C-x p c` | `project-compile`                  | Run `compile` in the project root.                                                   |
+| `C-x p e` | `project-eshell`                   | Start Eshell in the current project's root directory.                                |
+| `C-x p k` | `project-kill-buffers`             | Kill the buffers belonging to the current project.                                   |
+| `C-x p p` | `project-switch-project`           | Switch to another project by running an Emacs command.                               |
+| `C-x p g` | `project-find-regexp`              | Find all matches for REGEXP in the current project's roots.                          |
+| `C-x p G` | `project-or-external-find-regexp`  | Find all matches for REGEXP in the project roots or external roots.                  |
+| `C-x p r` | `project-query-replace-regexp`     | Query-replace REGEXP in all the files of the project.                                |
+| `C-x p x` | `project-execute-extended-command` | Execute an extended command in project root.                                         |
 
 ## Balanced Expressions
 
@@ -243,14 +265,15 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 
 ## Interface To Spell (Ispell) and On The Fly Spell (Flyspell)
 
-| Shortcut | Command Invoked                      | Description                                                      |
-|----------|--------------------------------------|------------------------------------------------------------------|
-| `M $`    | `ispell-word`                        | Check and correct spelling of the word at point.                 |
-| `C-M i`  | `completion-at-point`                | Complete the word before point based on the spelling dictionary. |
-| `C-c $`  | `flyspell-correct-word-before-point` | Correct word before point.                                       |
-|          | `flyspell-mode`                      | Enable Fly-spell mode, which highlights all misspelled words.    |
-|          | `flyspell-prog-mode`                 | Enable Fly-spell mode for comments and strings only.             |
-|          | `flyspell-buffer`                    | Check and correct spelling in the buffer.                        |
+| Shortcut | Command Invoked                      | Description                                                                       |
+|----------|--------------------------------------|-----------------------------------------------------------------------------------|
+| `M $`    | `ispell-word`                        | Check and correct spelling of the word at point.                                  |
+| `C-M i`  | `completion-at-point`                | Complete the word before point based on the spelling dictionary.                  |
+| `M-TAB`  | `flyspell-auto-correct-word`         | Automatically corrects the current word at point, will also cycle between option. |
+| `C-c $`  | `flyspell-correct-word-before-point` | Correct word before point.                                                        |
+|          | `flyspell-mode`                      | Enable Fly-spell mode, which highlights all misspelled words.                     |
+|          | `flyspell-prog-mode`                 | Enable Fly-spell mode for comments and strings only.                              |
+|          | `flyspell-buffer`                    | Check and correct spelling in the buffer.                                         |
 
 ## Org Buffer
 
