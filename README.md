@@ -124,15 +124,16 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 
 ## Balanced Expressions
 
-| Shortcut | Command Invoked    | Description                          |
-|----------|--------------------|--------------------------------------|
-| `C-M-f`  | `forward-sexp`     | Forward over an sexps.               |
-| `C-M-b`  | `backward-sexp`    | Backward over a sexps.               |
-| `C-M-d`  | `down-list`        | Move down into a sexps.              |
-| `C-M-u`  | `backward-up-list` | Move up out of a sexps.              |
-| `C-M-n`  | `forward-list`     | Move forward to the sexps.           |
-| `C-M-p`  | `backward-list`    | Move backward to the previous sexps. |
-| `C-M-k`  | `kill-sexp`        | Kill down into sexps.                |
+| Shortcut | Command Invoked      | Description                          |
+|----------|----------------------|--------------------------------------|
+| `C-M-f`  | `forward-sexp`       | Forward over an sexps.               |
+| `C-M-b`  | `backward-sexp`      | Backward over a sexps.               |
+| `C-M-d`  | `down-list`          | Move down into a sexps.              |
+| `C-M-u`  | `backward-up-list`   | Move up out of a sexps.              |
+| `C-M-n`  | `forward-list`       | Move forward to the sexps.           |
+| `C-M-p`  | `backward-list`      | Move backward to the previous sexps. |
+| `C-M-k`  | `kill-sexp`          | Kill down into sexps.                |
+| `M-(`    | `insert-parentheses` | Wraps region in parenthesis.         |
 
 ## Incremental Search
 
