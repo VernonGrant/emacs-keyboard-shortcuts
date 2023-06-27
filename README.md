@@ -85,6 +85,8 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 | `C-x * g`             | `calc-dispatch`                  | Eval in new buffer.                                                |
 | `M-<space>`           | `just-one-space`                 | Removes extra whitespace between two words.                        |
 | `C-u M-x`             | `universal-argument`             | Run command with additional options.                               |
+| `C-x TAB`             | `indent-rigidly`                 | Allows you to manually indent a region inwards or outwards.        |
+| `C-x x t`             | `toggle-truncate-lines`          | Turn on or off line truncation.                                    |
 |                       | `locate`                         | Find a files matching a pattern across the entire system.          |
 |                       | `recentf`                        | Shows a list of recent files, if `recentf` mode is enabled.        |
 
