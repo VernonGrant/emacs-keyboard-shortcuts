@@ -90,6 +90,16 @@ A list of Emacs keyboard shortcuts that I use on a regular basis.
 |                       | `locate`                         | Find a files matching a pattern across the entire system.          |
 |                       | `recentf`                        | Shows a list of recent files, if `recentf` mode is enabled.        |
 
+## Highlighting
+
+| Shortcut  | Command Invoked                   | Description                                                 |
+|-----------|-----------------------------------|-------------------------------------------------------------|
+| `M-s h .` | `highlight-symbol-at-point`       | Highlight each instance of the symbol at point.             |
+| `M-s h l` | `highlight-lines-matching-regexp` | Highlight all lines that match REGEXP using FACE.           |
+| `M-s h p` | `highlight-phrase`                | Set face of each match of phrase REGEXP to FACE.            |
+| `M-s h r` | `highlight-regexp`                | Set face of each match of REGEXP to FACE.                   |
+| `M-s h u` | `unhighlight-regexp`              | Remove highlighting of each match to REGEXP set by hi-lock. |
+
 ## Macros
 
 | Shortcut          | Command Invoked             | Description                                                            |
